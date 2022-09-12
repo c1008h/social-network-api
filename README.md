@@ -2,22 +2,29 @@
 
 
 ## Description
-This NodeJS program allows users to quickly generate a professional README markdown file based on the user's input.
+This is a database that holds users, thoughts, friends, and reactions.
 ### Created with:
 - <a href='https://javascript.info/'>JavaScript</a>
 - <a href='https://nodejs.org/en/'>Node JS</a>
-- <a href='https://www.npmjs.com/package/inquirer'>Inquirer</a>
+- <a href='http://expressjs.com/'>Express</a>
+- <a href='https://www.mongodb.com/docs/'>MongoDB</a>
+- <a href='https://mongoosejs.com/docs/'>Mongoose</a>
 
 
 ## Table of Contents (Optional)
-- [Instructions](#instructions)
-- [Contributions](#contributions)
-- [License](#license)
-- [Contact](#contact)
+- [Social Network Api](#social-network-api)
+  - [Description](#description)
+    - [Created with:](#created-with)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Instructions](#instructions)
+    - [Installation](#installation)
+    - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Badges](#badges)
+  - [Contact](#contact)
 
 ## Instructions
-
-
 
 
 ### Installation
@@ -27,12 +34,12 @@ Use this command line to clone this repo before running the program:
 
 Open the repo in VSC then open the terminal to that file. Once in the terminal, run `npm init`. Once initualize is finished, run `npm i`. This should install all packages and dependencies that are needed for this app.
 ### Usage
-Type `node index.js` into the terminal to run this app. Once the app has started, user will be prompted with a handful of questions to answer. When the questionare is completely filled out, the README.md file will be updated with the user's input. From there, users can copy and paste into whatever README.md file they desire. 
+Type `node server.js` into the terminal to run this app. Once the app has started, user will be able to open `insomnia` on `http://localhost:3001/api/user` and `http://localhost:3001/api/thought` to GET, PUT, POST, and DELETE data. 
 
-Fun fact, the samplereadme.md was created using this generator. 
+It's a great way to keep track of user thoughts, friends and reactions. 
 
 ## Contribution
-Feel free to fork my repo and use it as your README generator. 
+Feel free to fork my repo and make it your own friend tracker.
 
 ## License
 <details>
