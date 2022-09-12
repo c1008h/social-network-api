@@ -2,6 +2,9 @@
 
 ![Untitled_ Sep 11, 2022 10_26 PM](https://user-images.githubusercontent.com/102135325/189580559-3f8564b5-6033-451d-ac00-4654bb70f175.gif)
 
+![api network](https://user-images.githubusercontent.com/102135325/189580989-b3e3d82a-40f7-4cb8-83d5-1200e7e76cc3.gif)
+
+
 ## Description
 This is a database that holds users, thoughts, friends, and reactions.
 ### Created with:
