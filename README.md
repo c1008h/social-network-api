@@ -43,7 +43,7 @@ Use this command line to clone this repo before running the program:
 
 Open the repo in VSC then open the terminal to that file. Once in the terminal, run `npm init`. Once initualize is finished, run `npm i`. This should install all packages and dependencies that are needed for this app.
 ### Usage
-Type `node server.js` into the terminal to run this app. Once the app has started, user will be able to open `insomnia` on `http://localhost:3001/api/user` and `http://localhost:3001/api/thought` to GET, PUT, POST, and DELETE data. 
+Type `npm server.js` into the terminal to run this app. Once the app has started, user will be able to open `insomnia` on `http://localhost:3001/api/user` and `http://localhost:3001/api/thought` to GET, PUT, POST, and DELETE data. 
 
 It's a great way to keep track of user thoughts, friends and reactions. 
 
