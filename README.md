@@ -3,8 +3,10 @@
 ![Untitled_ Sep 23, 2022 10_48 PM](https://user-images.githubusercontent.com/102135325/192082286-11f13cf1-bc34-44b4-8603-c00af6873360.gif)
 
 ## Thought Routes Demo
+![Untitled_ Sep 23, 2022 10_57 PM](https://user-images.githubusercontent.com/102135325/192082531-4087b0a1-458d-4176-8f11-599013eae065.gif)
 
 ## Reaction Routes Demo
+
 
 ## Description
 This is a database that holds users, thoughts, friends, and reactions.
