@@ -62,9 +62,9 @@ const userController = {
   },
 
   addFriend({params}, res) {
-    User.findOneAndUpdate({_id: params.id}, {$push: { friend: params.friendId}}, {new: true})
-      .populate({path: 'friend', select: ('-__v')})
-      .select('-__v')
+    User.findOneAndUpdate({_id: params.id}, {$addToSet: { friends: params.friendId}}, {new: true})
+      // .populate({path: 'friend', select: ('-__v')})
+      // .select('-__v')
       .then(dbUserData => {
           if (!dbUserData) {
               res.status(404).json({message: 'No User with this ID'});
@@ -76,9 +76,9 @@ const userController = {
   },
 
   deleteFriend({ params }, res) {
-    User.findOneAndUpdate({_id: params.id}, {$pull: { friend: params.friendId}}, {new: true})
-      .populate({path: 'friend', select: '-__v'})
-      .select('-__v')
+    User.findOneAndUpdate({_id: params.id}, {$pull: { friends: params.friendId}}, {new: true})
+      // .populate({path: 'friend', select: '-__v'})
+      // .select('-__v')
       .then(dbUserData => {
           if(!dbUserData) {
               res.status(404).json({message: 'No User with this ID'});
